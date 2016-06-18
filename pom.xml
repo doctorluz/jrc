@@ -61,9 +61,7 @@
               </transformers>
               <artifactSet>
                 <excludes>
-                  <exclude>org.apache.hive:*</exclude>
-                  <exclude>org.apache.hadoop:*</exclude>
-                  <exclude>commons-logging:*</exclude>
+                 
                 </excludes>
               </artifactSet>
             </configuration>
