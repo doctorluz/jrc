@@ -28,6 +28,16 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
         <configuration>
+		  <filters>
+			<filter>
+				<artifact>*:*</artifact>
+				<excludes>
+					<exclude>META-INF/*.SF</exclude>
+					<exclude>META-INF/*.DSA</exclude>
+					<exclude>META-INF/*.RSA</exclude>
+				</excludes>
+			</filter>
+		  </filters>
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
