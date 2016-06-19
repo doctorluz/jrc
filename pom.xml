@@ -59,11 +59,7 @@
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
               </transformers>
-              <artifactSet>
-                <excludes>
-                 
-                </excludes>
-              </artifactSet>
+              
             </configuration>
           </execution>
         </executions>
